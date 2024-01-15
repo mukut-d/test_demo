@@ -1,0 +1,26 @@
+uploading files in github using terminal/gitbash
+
+touch text.txt ( creating a file )
+git add text.txt ( adding the file to the staging area )
+git commit -m "commit message" ( commiting the file )
+git push -u origin main ( pushing the changes in the remote repository )
+
+Check Status
+
+git status
+
+Check Logs
+
+git log
+
+
+logging in github account ( first login to your github account then push changes )
+
+git config --global user.username "mukut-d"
+git config --global user.email "mukut.m.das2000@gmail.com"
+
+
+REFERENCES 
+https://raghav20nov.medium.com/git-and-github-for-beginners-3-ceeb016f410b
+https://www.youtube.com/watch?v=apGV9Kg7ics
+https://learngitbranching.js.org/
