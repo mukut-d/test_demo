@@ -1,26 +1,94 @@
-uploading files in github using terminal/gitbash
+// initalising a git repository
+git init
+
+
+// uploading files in github using terminal/gitbash
 
 touch text.txt ( creating a file )
 git add text.txt ( adding the file to the staging area )
 git commit -m "commit message" ( commiting the file )
 git push -u origin main ( pushing the changes in the remote repository )
 
-Check Status
+// Unstaging the file in github
+git reset text.txt
+
+// Check Status of our repository
 
 git status
 
-Check Logs
+// Check Logs of our repository ( checking the history of commits in your git reposity )
 
-git log
+git log    	( shows the history of commits of the current branch only )
 
 
-logging in github account ( first login to your github account then push changes )
+// logging in github account ( first login to your github account then push changes )
 
 git config --global user.username "mukut-d"
 git config --global user.email "mukut.m.das2000@gmail.com"
+
+
+// if someone made some changes in name.txt file so you'll need to pull those changes in your working directory, command for that is 
+
+git pull
+
+
+// Git Branching
+
+// to check all the branches in the git the repository
+
+git branch
+
+// to create a new branch
+git branch leaf
+
+// to switch between branches
+git checkout branchname
+
+// to switch and create a new branch at the same time 
+git checkout -b branchname
+
+
+// to merge branches 
+
+git merge bugFix ( the branch we want to merge into the main branch )  
+
+// rebasing in git
+
+suppose you have two branches which you want to merge sequencially 
+then you should use rebase, rebase creates a copy of the commit you want to rebase into the main branch.
+
+suppose you are in bugfix branch which you want to rebase it in main
+
+git rebase main ( rebasing from bugfix to main )
+
+
+// clear commit history
+
+unstage commit
+git reset --hard [commit]
+clear staging area, rewrite working tree from specified commit
+
+// detaching head from branch
+
+git checkout commitHasH
+or use relative refs
+git checkout HEAD^
+use ^ ek uper jane ke liye, ^^ do uper jane ke liye, or use ~num to move any number of commits
+
+// reverse changes in git
+
+git revert HEAD ( it creates a new commit with undoing the changes made )
+git reset commitHASH ( going back to the previous commit )
+
+// git cherry-pick - basically copying commits from any branches to the main branch 
+git cherry-pick c1 c2 ... commits hash code
+
+// cloning a remote repository
+git clone
 
 
 REFERENCES 
 https://raghav20nov.medium.com/git-and-github-for-beginners-3-ceeb016f410b
 https://www.youtube.com/watch?v=apGV9Kg7ics
 https://learngitbranching.js.org/
+https://www.geeksforgeeks.org/difference-between-gitlab-and-github/
