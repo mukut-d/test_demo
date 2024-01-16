@@ -1,8 +1,13 @@
 ###  <h1 style="color:green"><b><marquee> Git Notes + USEFULL LINKS </marquee><b></h1>
 
+<h3>NOTES</h3>
 
-[MEDIUM GIT](https://raghav20nov.medium.com/git-and-github-for-beginners-3-ceeb016f410b_)
+[GIT-NOTES](https://github.com/mukut-d/test_demo/blob/main/git/git_notes.txt)
 
+<h3>LINKS</h3>
+
+[MEDIUM GIT](https://raghav20nov.medium.com/git-and-github-for-beginners-3-ceeb016f410b)
+ 
 [YOUTUBE](https://www.youtube.com/watch?v=apGV9Kg7ics)
 
 [LEARN GIT BRANCHING](https://learngitbranching.js.org/)
