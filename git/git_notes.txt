@@ -46,7 +46,8 @@ git checkout branchname
 
 // to switch and create a new branch at the same time 
 git checkout -b branchname
-
+or use,
+git swtich -c branchname
 
 // to merge branches 
 
