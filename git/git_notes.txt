@@ -84,7 +84,7 @@ git reset commitHASH ( going back to the previous commit )
 git cherry-pick c1 c2 ... commits hash code
 
 // cloning a remote repository
-git clone
+git clone <URL>
 
 
 REFERENCES 
