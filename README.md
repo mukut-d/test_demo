@@ -1,4 +1,4 @@
-###  <h1 style="color:green"><b><marquee Git Notes + USEFULL LINKS </marquee><b></h1>
+###  <h1 style="color:green"><b><marquee> Git Notes + USEFULL LINKS </marquee><b></h1>
 
 
 [MEDIUM GIT](https://raghav20nov.medium.com/git-and-github-for-beginners-3-ceeb016f410b_)
