@@ -8,7 +8,7 @@
 
 [MEDIUM GIT](https://raghav20nov.medium.com/git-and-github-for-beginners-3-ceeb016f410b)
  
-[YOUTUBE](https://www.youtube.com/watch?v=apGV9Kg7ics)
+[YOUTUBE GIT](https://www.youtube.com/watch?v=apGV9Kg7ics)
 
 [LEARN GIT BRANCHING](https://learngitbranching.js.org/)
 
